@@ -7,12 +7,10 @@
 }
 
 body {
-  border: 1px solid red;
   font-family: 'Roboto', sans-serif;
 }
 
 .header {
-  border: 1px solid rgb(238, 255, 0);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -21,14 +19,12 @@ body {
 }
 
 main {
-  border: 1px solid rgb(51, 255, 0);
   display: flex;
   height: calc(100vh - 70px);
   background-color: #f9f9f9;
 }
 
 .side-bar {
-  border: 1px solid rgb(25, 0, 255);
   height: 100%;
   width: 17%;
   display: flex;
@@ -77,6 +73,12 @@ input:focus {
 
 .mic {
   margin-top: 10px;
+}
+
+.material-icons {
+  color: rgb(100, 100, 100);
+  padding: 0 7px;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
