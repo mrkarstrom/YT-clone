@@ -109,6 +109,12 @@ input:focus {
   background: #e5e5e5;
 }
 
+hr {
+  border: none;
+  height: 1px;
+  background-color: #e5e5e5;
+}
+
 @media (max-width: 768px) {
   .side-bar {
     display: none;
