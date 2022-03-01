@@ -80,14 +80,18 @@ input:focus {
   margin-top: 10px;
 }
 
-.icons .right i {
-  padding: 0 40px;
-}
-
 .material-icons {
   color: rgb(100, 100, 100);
   padding: 0 7px;
   cursor: pointer;
+}
+
+.right .material-icons {
+  padding: 0 10px;
+}
+
+.display-this {
+  margin-right: 30px;
 }
 
 .nav {
